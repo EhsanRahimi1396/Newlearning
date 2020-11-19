@@ -6,9 +6,9 @@ const MongoClient = mongodb.MongoClient;
 const MongoConnect = callback => {
     MongoClient.connect("mongodb://localhost")
 
-        .then(client => {
+        .then(client => {  منظور از کلاینت چیه؟ 
             console.log('Connected');
-            callback(client);
+            callback(client); 
         })
         .catch(err => {
             console.log(err);
